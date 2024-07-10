@@ -19,7 +19,7 @@ class UserResource extends JsonResource
         $type = $this->role == 2 ? "mentor_id" : "student_id";
         $url = $this->profile_picture;
         $local = array("http://127.0.0.1:8000");
-        $live   = array("https://6942-112-209-212-53.ngrok-free.app");
+        $live   = array("https://e250-112-209-252-113.ngrok-free.app");
         $profile_picture = str_replace($local, $live, $url);
         return [
             'id'                    => $this->id,

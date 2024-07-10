@@ -2244,7 +2244,7 @@
 						},
 						{
 							"key": "redirect_uri",
-							"value": "http://127.0.0.1:8000/api/v1/google-callback",
+							"value": "https://e250-112-209-252-113.ngrok-free.app/api/v1/google-callback",
 							"type": "text",
 							"disabled": true
 						}
@@ -2401,7 +2401,7 @@
 	"variable": [
 		{
 			"key": "app_url",
-			"value": "http://127.0.0.1:8000/api",
+			"value": "https://e250-112-209-252-113.ngrok-free.app/api",
 			"type": "string"
 		},
 		{

@@ -104,7 +104,7 @@ class ClassController extends Controller
         $client_id = '1001131123526-u0ldfuqhk22t84t5o6ro2gnlk6lifhbh.apps.googleusercontent.com';
         $client_secret = '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';
         $authorization_code = $_GET['code'];
-        $redirect_uri = 'https://6942-112-209-212-53.ngrok-free.app/api/v1/google-callback'; // Must match the redirect URI configured in your Google Cloud Console
+        $redirect_uri = 'https://e250-112-209-252-113.ngrok-free.app/api/v1/google-callback'; // Must match the redirect URI configured in your Google Cloud Console
 
         $url = 'https://oauth2.googleapis.com/token';
 
@@ -217,7 +217,7 @@ class ClassController extends Controller
     {
         $client_id = '1001131123526-u0ldfuqhk22t84t5o6ro2gnlk6lifhbh.apps.googleusercontent.com';
         $client_secret = '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';
-        $redirect_uri = 'https://6942-112-209-212-53.ngrok-free.app/api/v1/google-callback'; // Must match the redirect URI configured in your Google Cloud Console
+        $redirect_uri = 'https://e250-112-209-252-113.ngrok-free.app/api/v1/google-callback'; // Must match the redirect URI configured in your Google Cloud Console
 
         // Initialize the Google Client
         $client = new Google_Client();
@@ -300,7 +300,7 @@ class ClassController extends Controller
         $client_id = '1001131123526-u0ldfuqhk22t84t5o6ro2gnlk6lifhbh.apps.googleusercontent.com';
         $client_secret = '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';
         $authorization_code = $request->code;
-        $redirect_uri = 'https://6942-112-209-212-53.ngrok-free.app/api/v1/google-callback'; // Must match the redirect URI configured in your Google Cloud Console
+        $redirect_uri = 'https://e250-112-209-252-113.ngrok-free.app/api/v1/google-callback'; // Must match the redirect URI configured in your Google Cloud Console
 
         $url = 'https://oauth2.googleapis.com/token';
 
